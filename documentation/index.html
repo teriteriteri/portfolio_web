@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Juleha — Documentation</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-spy="scroll" data-target="#tableOfContents">
+  <div class="navigation" id="tableOfContents">
+    <ul class="nav">
+      <li><a href="#html">HTML Structure</a> </li>
+      <li><a href="#css">CSS structure</a> </li>
+      <li><a href="#js">JavaScript</a> </li>
+      <li><a href="#php">PHP structure</a> </li>
+      <li><a href="#backstretch">Backstretch</a> </li>
+      <li><a href="#typed">Typed.js</a> </li>
+      <li><a href="#wow">Animated Scroll</a> </li>
+    </ul>
+  </div>
+  <div class="contents">
+    <div class="wrap">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Juleha<br/><small>One Page Resume Template</small></h1> </div>
+        <div class="col-lg-4">
+          <div class="credits">
+            <div class="row">
+              <small class="text-muted col-sm-4">Created:</small> <small class="col-sm-8">31/12/2016</small>
+              <br/><small class="text-muted col-sm-4">Update:</small> <small class="col-sm-8">27/01/2017</small>
+              <br/><small class="text-muted col-sm-4">Author:</small> <small class="col-sm-8">Dian Anarchyta</small>
+              <br/><small class="text-muted col-sm-4">Portfolio:</small> <small class="col-sm-8"><a href="https://goo.gl/3qBh01">@anarchyta</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="lead wells"> Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/anarchyta">here</a>. Thanks so much! </p>
+      <hr />
+      <div id="html" class="section">
+        <h2>HTML Structure</h2>
+        <p><strong>Juleha</strong> is a single-page template, however the package includes several different color schemes and usage examples. Here is the list of all HTML files and their descriptions:</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>index.html</td>
+              <td>HTML template with Default color Blue</td>
+            </tr>
+            <tr>
+              <td>index2.html</td>
+              <td>HTML template with Default color Red</td>
+            </tr>
+            <tr>
+              <td>index3.html</td>
+              <td>HTML template with Default color Yellow</td>
+            </tr>
+            <tr>
+              <td>index4.html</td>
+              <td>HTML template with Default color Green</td>
+            </tr>
+            <tr>
+              <td>index5.html</td>
+              <td>HTML template with Default color Purple</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>All those files follow the same basic HTML structure with some minor changes. Let's take a look:</p> <pre class="prettyprint">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    ...
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- begin:navbar --&gt;
+    &lt;nav class="navbar navbar-default navbar-fixed-top" role="navigation"&gt;
+      ...
+    &lt;/nav&gt;
+    &lt;!-- end:navbar --&gt;
+    &lt;!-- begin:header --&gt;
+    &lt;header class="header" id="header"&gt;
+      ...
+    &lt;/header&gt;
+    &lt;!-- end:header --&gt;
+    &lt;!-- begin:about --&gt;
+    &lt;section class="about" id="about"&gt;
+      ...
+    &lt;/section&gt;
+    &lt;!-- end:about --&gt;
+    &lt;!-- begin:service --&gt;
+    &lt;section class="service" id="service"&gt;
+      ...
+    &lt;/section&gt;
+    &lt;!-- end:service --&gt;
+    &lt;!-- begin:experience --&gt;
+    &lt;section class="experience" id="experience"&gt;
+      ...
+    &lt;/section&gt;
+    &lt;!-- end:experience --&gt;
+    &lt;!-- begin:work --&gt;
+    &lt;section id="work" class="work"&gt;
+      ...
+    &lt;/section&gt;
+    &lt;!-- end:work --&gt;
+    &lt;!-- begin:testimonial --&gt;
+    &lt;section class="testimonial" id="testimonial"&gt;
+      ...
+      &lt;!--//container--&gt;
+    &lt;/section&gt;
+    &lt;!-- end:testimonial --&gt;
+    &lt;!-- begin:blog --&gt;
+    &lt;section class="blog" id="blog"&gt;
+      ...
+      &lt;!--//container--&gt;
+    &lt;/section&gt;
+    &lt;!-- end:blog --&gt;
+    &lt;!-- begin:contact --&gt;
+    &lt;section class="contact" id="contact"&gt;
+      ...
+    &lt;/section&gt;
+    &lt;!-- end:contact --&gt;
+    &lt;!-- begin:maps --&gt;
+    &lt;div class="maps wow fadeInUp" id="maps" data-wow-delay="0.5s" data-wow-duration="1.5s"&gt;
+      ...
+    &lt;/div&gt;
+    &lt;!-- end:maps --&gt;
+    &lt;!-- begin:footer --&gt;
+    &lt;footer class="footer" id="main-footer"&gt;
+      ...
+    &lt;/footer&gt;
+    &lt;!-- end:footer --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre> </div>
+      <div id="css" class="section">
+        <h2>CSS Structure</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>font-awesome.min.css</td>
+              <td>The iconic font and CSS framework</td>
+            </tr>
+            <tr>
+              <td>bootstrap.min.css</td>
+              <td>The most popular front-end framework for developing responsive, mobile first projects on the web.</td>
+            </tr>
+            <tr>
+              <td>animate.min.css</td>
+              <td>Plug and play, app-like animations for your websites and web apps.</td>
+            </tr>
+            <tr>
+              <td>lightbox.min.css</td>
+              <td>Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</td>
+            </tr>
+            <tr>
+              <td>custom.css</td>
+              <td>Custom of theme... (Blue)</td>
+            </tr>
+            <tr>
+              <td>custom2.css</td>
+              <td>Custom of theme... (Red)</td>
+            </tr>
+            <tr>
+              <td>custom3.css</td>
+              <td>Custom of theme... (Yellow)</td>
+            </tr>
+            <tr>
+              <td>custom4.css</td>
+              <td>Custom of theme... (Green)</td>
+            </tr>
+            <tr>
+              <td>custom5.css</td>
+              <td>Custom of theme... (Purple)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="js" class="section">
+        <h2>JavaScript Structure</h2>
+        <p>This template imports 15 Javascript files. You can find all of them in <strong>/assets/js/</strong> folder.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>jquery.min.js</td>
+              <td>JavaScript library for DOM operations</td>
+            </tr>
+            <tr>
+              <td>bootstrap.min.js</td>
+              <td>The most popular front-end framework for developing responsive, mobile first projects on the web.</td>
+            </tr>
+            <tr>
+              <td>jquery.easing.min.js</td>
+              <td>A jQuery plugin from GSGD to give advanced easing options</td>
+            </tr>
+            <tr>
+              <td>classie.min.js</td>
+              <td>Class helper functions</td>
+            </tr>
+            <tr>
+              <tr>
+                <td>jquery.backstretch.min.js</td>
+                <td>A simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.</td>
+              </tr>
+              <tr>
+                <td>lightbox.min.css</td>
+                <td>Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</td>
+              </tr>
+              <tr>
+                <td>imagesloaded.pkgd.min.js</td>
+                <td>You images done yet or what?</td>
+              </tr>
+              <tr>
+                <td>isotope.pkgd.min.js</td>
+                <td>Filter and sort magical layouts</td>
+              </tr>
+              <tr>
+                <td>wow.min.js</td>
+                <td>Reveal CSS animation as you scroll down a page</td>
+              </tr>
+              <tr>
+                <td>typed.min.js</td>
+                <td>A jQuery typing animation script</td>
+              </tr>
+              <tr>
+                <td>jqBootstrapValidation.min.js</td>
+                <td>A JQuery validation plugin for bootstrap forms.</td>
+              </tr>
+              <tr>
+                <td>contact-form.min.js</td>
+                <td>Ajax function from jqBootstrapValidation.min.js</td>
+              </tr>
+              <tr>
+                <td>jquery.mobilegmap.min.js</td>
+                <td>Responsive google maps</td>
+              </tr>
+              <tr>
+                <td>custom.js</td>
+                <td>Custom of theme...</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="php" class="section">
+        <h2>PHP Structure</h2>
+        <p>This template includes a PHP script <code>assets/php/contact-form.php</code> that handles AJAX requests from <em>"Contact Form"</em>.</p>
+      </div>
+      <div id="backstretch" class="section">
+        <h2>Backstretch</h2>
+        <p>Do you see the full-sized background image on this page? In a nutshell, that's what Backstretch does. It will stretch any image to fit the page or block-level element, and will automatically resize as the window or element size changes. Can edit find <code>assets/js/custom.js</code> </p>
+        <h3>Basic Usage</h3> <pre class="prettyprint">&lt;script type="text/javascript"&gt;
+/*
+ * At its core, Backstretch is a one-line plugin.
+ * Just pass in the path to an image, and you're done.
+ */
+$.backstretch('assets/images/background/home.png');
+&lt;/script&gt;</pre>
+        <h3>Using Backstretch as a slideshow</h3> <pre class="prettyprint">&lt;script type="text/javascript"&gt;
+/*
+ * Here is an example of how to use Backstretch as a slideshow.
+ * Just pass in an array of images, and optionally a duration and fade value.
+ */
+
+  // Duration is the amount of time in between slides,
+// and fade is value that determines how quickly the next image will fade in
+$('.coming-soon-left').backstretch([
+    'assets/img/backstretch1.jpg',
+    'assets/img/backstretch2.jpg',
+    'assets/img/backstretch3.jpg',
+    'assets/img/backstretch4.jpg',
+    'assets/img/backstretch5.jpg'
+    ], {
+    duration: 3000,
+    fade: 750
+});
+&lt;/script&gt;</pre> </div>
+      <div id="typed" class="typed">
+        <h2>Typed.js</h2>
+        <p>A jQuery typing animation script. The first one is how to change the text animation. Can edit find <code>assets/js/custom.js</code> </p> <pre class="prettyprint">
+$(".description .sub").typed({
+    strings: ["Front End Developer", "Front End Developer"], // text in sub-title, in multi use separate <code></code>
+    typeSpeed: 1,
+    backSpeed: 1,
+    backDelay: 1400,
+    loop: true
+});
+</pre>
+        <p>Can you see a strings? Change it to whatever you like.</p>
+      </div>
+      <div id="wow" class="section">
+        <h2>Animated Scroll <small>wow.min.js</small></h2>
+        <p>Reveal CSS animation as you scroll down a page. By default, you can use it to trigger animate.css animations. But you can easily change the settings to your favorite animation library.</p> <strong>Advantages:</strong>
+        <ul>
+          <li>Smaller than other JavaScript parallax plugins, like Scrollorama (they do fantastic things, but can be too heavy for simple needs)</li>
+          <li>Super simple to install, and works with animate.css, so if you already use it, that will be very fast to setup</li>
+          <li>Fast execution and lightweight code: the browser will like it ;-)</li>
+        </ul> <strong>Reveal CSS Animations</strong>
+        <p>1. Make an element revealable</p>
+        <p>Add the CSS class .wow to a HTML element: it will be invisible until the user scrolls to reveal it.
+          <br/><small>(You can change this CSS class in the WOW settings to avoid name conflicts.)</small> </p> <pre class="prettyprint">&lt;div class="wow"&gt;
+    Content to Reveal Here
+&lt;/div&gt;</pre>
+        <p>2. Choose the animation style</p>
+        <p>Pick an animation style in <code>assets/css/animate.min.css</code>, then add the CSS class to the HTML element</p> <pre class="prettyprint">&lt;div class="wow bounceInUp"&gt;
+    Content to Reveal Here
+&lt;/div&gt;</pre> <strong>Advanced Options</strong>
+        <ul>
+          <li><strong>data-wow-duration</strong>: Change the animation duration</li>
+          <li><strong>data-wow-delay</strong>: Delay before the animation starts</li>
+          <li><strong>data-wow-offset</strong>: Distance to start the animation (related to the browser bottom)</li>
+          <li><strong>data-wow-iteration</strong>: Number of times the animation is repeated</li>
+        </ul> Example: <pre class="prettyprint">&lt;section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"&gt;
+    Content to Reveal Here                    
+&lt;/section&gt;
+
+&lt;section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"&gt;
+    Content to Reveal Here
+&lt;/section&gt;</pre> </div>
+      <p class="lead wells"> Thank you for purchasing!! </p>
+    </div>
+  </div>
+  <script src="assets/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/bootstrap.min.js" type="text/javascript"></script>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  <script>
+    $("a[href*='#']").on("click", function(event) {
+      $('html,body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 500);
+      event.preventDefault();
+    });
+  </script>
+</body>
+</html>
